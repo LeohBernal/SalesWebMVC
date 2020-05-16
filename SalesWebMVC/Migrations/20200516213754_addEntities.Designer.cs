@@ -10,8 +10,8 @@ using SalesWebMVC.Data;
 namespace SalesWebMVC.Migrations
 {
     [DbContext(typeof(SalesWebMVCContext))]
-    [Migration("20200516202409_addNewEntities")]
-    partial class addNewEntities
+    [Migration("20200516213754_addEntities")]
+    partial class addEntities
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
