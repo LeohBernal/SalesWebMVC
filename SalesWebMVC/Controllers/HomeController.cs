@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SalesWebMVC.Models;
+using SalesWebMVC.Models.ViewsModels;
 
 namespace SalesWebMVC.Controllers {
     public class HomeController : Controller {
@@ -13,7 +14,8 @@ namespace SalesWebMVC.Controllers {
         }
 
         public IActionResult About() {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App from C# Course.";
+            ViewData["email"] = "leonardo.bernal@unesp.br";
 
             return View();
         }
